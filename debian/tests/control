@@ -1,0 +1,5 @@
+tests: linecount
+Depends: @,
+         coreutils,
+	 bash
+

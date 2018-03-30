@@ -1,0 +1,652 @@
+linuxinfo (2.5.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Use more https instead of http in packaging.
+  * Update to standards version 4.1.3 (no change required). 
+  * Remove "  --with autotools_dev" from debian/rules.
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Fri, 30 Mar 2018 08:07:15 +0200
+
+linuxinfo (2.4.4-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Sun, 20 Nov 2016 07:07:02 +0100
+
+linuxinfo (2.4.3-2) unstable; urgency=medium
+
+  * Add missing build dependency on po4a to actually get the man pages on all
+    architectures. Closes: #844112.
+  * Fix version number of package.
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Sat, 12 Nov 2016 17:20:43 +0100
+
+linuxinfo (2.4.2-3-1) unstable; urgency=medium
+
+  * New upstream release.
+  * New (working) watch file including upstream gpg signing key.
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Sun, 30 Oct 2016 10:47:35 +0100
+
+linuxinfo (2.4.2-2) unstable; urgency=medium
+
+  * Fix various minor errors in debian/copyright (noted by lintian).
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Mon, 26 Sep 2016 21:46:30 +0200
+
+linuxinfo (2.4.2-1) unstable; urgency=medium
+
+  * New upstream release. Closes: #838397
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Wed, 21 Sep 2016 20:43:56 +0200
+
+linuxinfo (2.4.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Sun, 18 Sep 2016 07:17:33 +0200
+
+linuxinfo (2.3.1-2) unstable; urgency=medium
+
+  * Fix spelling errors found by lintian.
+  * Update to standards version 3.9.8 (no change required).
+  * Update debian/copyright as noted by lintian.
+  * Fix installation of (localized) man pages.
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Sun, 11 Sep 2016 11:35:58 +0200
+
+linuxinfo (2.3.1-1) unstable; urgency=medium
+
+  * New upstream release, start (real) work on arm64. 
+    Add NEWs entry asking for input.
+  * Correct lintian errors for debian/copyright.
+  * Update debian/copyright to match reality (more).
+  * Remove XS-Testsuite field from the debian/control file.
+  * Add homepage field.
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Mon, 14 Mar 2016 14:39:16 +0100
+
+linuxinfo (2.2.3-1) unstable; urgency=medium
+
+  * New minor upstream release.
+  * Work on debian/copyright to reduce the number of lintian reported
+    problems.
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Sun, 05 Jul 2015 12:53:14 +0200
+
+linuxinfo (2.2.2-1) unstable; urgency=low
+
+  * New minor upstream release.
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Sun, 12 Oct 2014 09:55:58 +0200
+
+linuxinfo (2.2.1-1) unstable; urgency=medium
+
+  * New upstream release. Fix compilation on PPC(64el) and S390(x).
+  * Update to standards version 3.9.6 (no change required).
+  * List every file in debian/copyright, even if it is only a configuration
+    file. Dunno why this is necessary, but lintian complains otherwise.
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Mon, 29 Sep 2014 19:07:47 +0200
+
+linuxinfo (2.2.0-1) unstable; urgency=medium
+
+  * New upstream release. Now a ? is shown when no bogomips could be detected.
+  * Fix some errors in debian/copyright. 
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Sat, 20 Sep 2014 19:37:47 +0200
+
+linuxinfo (2.1.0-2) unstable; urgency=medium
+
+  * Correct syntax debian/copyright; the problematic entry was even redundant
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Sun, 07 Sep 2014 10:46:18 +0200
+
+linuxinfo (2.1.0-1) unstable; urgency=medium
+
+  * New upstream release. Now the man pages are i18n as well. 
+    - Czech, thanks to Michal Simunek, Closes: #757910
+    - Danish, thanks to Joe Hanson, Closes: #759779
+    - Italian, thanks to Beatrice Torracca, Closes: #759097
+    - Polish, thanks to Micha◈ Ku◈ach, Closes: #759103
+    - Portuguese, thanks to Américo Monteiro, Closes: #757717
+    - Russian, thanks to Yuri Kozlov, Closes: #758803
+  * Update debian/copyright including typo fix
+  * Update debian/linuxinfo.manpages for proper man page installation
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Sun, 31 Aug 2014 11:44:24 +0200
+
+linuxinfo (2.0.1-1) unstable; urgency=medium
+
+  * New upstream release with two more translations. This Closes: #757904.
+  * Update debian/copyright
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Wed, 13 Aug 2014 19:19:45 +0200
+
+linuxinfo (2.0.0-1) unstable; urgency=low
+
+  * New upstream release. This version includes all previous patches and has
+    been i18n. Thanks to all the translators. This Closes: #755199, #755398,
+    #756286, #756539, #756567, #756636.
+  * Fix and update debian/copyright
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Fri, 1 Aug 2014 19:35:51 +0200
+
+linuxinfo (1.9.5-2) experimental; urgency=low
+
+  * Fix syntax of debian/copyright
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Sun, 27 Apr 2014 08:11:51 +0200
+
+linuxinfo (1.9.5-1) experimental; urgency=low
+
+  * New upstream release
+  * Actually get README.Debian installed
+  * Fix syntax of debian/copyright
+  * Update config.{sub|guess} at build time
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Thu, 17 Apr 2014 19:38:54 +0200
+
+linuxinfo (1.9.4-1) experimental; urgency=low
+
+  * New upstream release. As agreed with the previous upstream maintainership
+    now moves to me. This version includes all previous debian patches.
+  * Resimplify debian/rules
+  * Switch to new style copyright, yes!
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Wed, 2 Apr 2014 20:40:43 +0100
+
+linuxinfo (1.1.8-44) unstable; urgency=low
+
+  * Fix control file for autopkgtest. Thanks to Jean-Baptiste Lallement.
+    Closes: #729780.
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Sun, 17 Nov 2013 13:33:08 +0100
+
+linuxinfo (1.1.8-43) unstable; urgency=low
+
+  * Update to standards version 3.9.5 (no change required).
+  * Add another Xeon.
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Thu, 14 Nov 2013 21:01:09 +0100
+
+linuxinfo (1.1.8-42) experimental; urgency=low
+
+  * Always parse /proc/meminfo. Closes: #709927.
+  * Add a first autpkgtest
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Sat, 28 Sep 2013 16:20:55 +0200
+
+linuxinfo (1.1.8-41) unstable; urgency=low
+
+  * Add the first Athlon 62 X2
+  * Add watch file, thanks Bart Martens <bartm@debian.org>
+  * Add headers to resourceleak.diff.
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Sat, 28 Sep 2013 16:11:41 +0200
+
+linuxinfo (1.1.8-40) unstable; urgency=low
+
+  * Continue work on machine parsable copyright
+  * Use Xz compression
+  * Remove DM-Allowed due to new Debian Maintainer mechanism
+  * Simplify debian/rules a little
+  * Update to standards version 3.9.4 (no change required).
+  * Switch debian/compat to 9
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Sun, 03 Mar 2013 14:15:14 +0100
+
+linuxinfo (1.1.8-39) unstable; urgency=low
+
+  * Continue work on machine parsable copyright
+  * Update to standards version 3.9.3 (no change required).
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Sat, 25 Feb 2012 18:05:56 +0100
+
+linuxinfo (1.1.8-38) unstable; urgency=low
+
+  * Continue work on machine parsable copyright
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Wed, 16 Nov 2011 18:26:37 +0100
+
+linuxinfo (1.1.8-37) unstable; urgency=low
+
+  * Add another Xeon, now reporting the correct on vask.debian.org
+  * Switch to debhelper V8
+  * As #544844 is closed, further simplify debian/rules (and update dependency
+    on debhelper to the closed version)
+  * Clarify upstream copyright (it is GPL v2 | LGPL v2, distributed by Debian
+    under GPL v2)
+  * Add first draft of machine parsable copyright
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Fri, 04 Nov 2011 14:49:32 +0100
+
+linuxinfo (1.1.8-36) unstable; urgency=low
+
+  * Add first Phenom II CPU
+  * Update to standards version 3.9.2 (no change required).
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Mon, 25 Jul 2011 18:46:17 +0200
+
+linuxinfo (1.1.8-35) unstable; urgency=low
+
+  * Fix resource leak found by DACA/cppcheck. 
+  * Update to standards version 3.9.1 (no change required).
+  * Update copyright for 2011.
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Tue, 04 Jan 2011 12:14:25 +0100
+
+linuxinfo (1.1.8-34) unstable; urgency=low
+
+  * Update to standards version 3.9.0, and switch to using linux-any as
+    architecture. Update NEWS.Debian to reflect this.
+  * Fix various spelling errors.
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Wed, 30 Jun 2010 17:29:53 +0200
+
+linuxinfo (1.1.8-33) unstable; urgency=low
+
+  * Rename NEWS.Debian to NEWS to actually get it installed into the
+    binary deb.
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Sat, 19 Jun 2010 16:09:38 +0200
+
+linuxinfo (1.1.8-32) unstable; urgency=low
+
+  * Using an uptodate dpkg, add powerpcspe and sparc64 to architecture list.
+    Since I don't have access to those machines, I'd be glad if to know if
+    linuxinfo complies and works on these architectures.
+  * Add NEWS.Debian, requesting help on rare / new architectures 
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Tue, 25 May 2010 18:51:25 +0200
+
+linuxinfo (1.1.8-31) unstable; urgency=low
+
+  * Fix build on sh4. Thanks to Nobuhiro Iwamatsu for the patch. This
+    closes: #573248.
+  * Try to get ./configure policy compliant (including noopt and friends) (cf. 
+    #544844 for details).
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Wed, 10 Mar 2010 19:20:45 +0100
+
+linuxinfo (1.1.8-30) unstable; urgency=low
+
+  * Add initial avr32 port. Since I've no access to such a machine I would 
+    be glad for feedback.
+  * Remove lpia from Architecture list as Ubuntu apparently no longer supports
+    this arch (though technically speaking it should be still possible to port
+    linuxinfo to it, I'll accept patches).
+  * Switch to debhelper V7, no change required.
+  * Use dh, greatly simplifying debian/rules.
+  * Include workaround for #544844 which I found by chance.
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Sun, 28 Feb 2010 18:12:23 +0100
+
+linuxinfo (1.1.8-29) unstable; urgency=low
+
+  * Add new architecture (SH), big thanks to Nobuhiro Iwamatsu for the patch!
+    This Closes: #567908.
+    The submitter has access to sh4 machines only, so if you own a different
+    model I'd be glad to hear about the results.
+  * Update to standards version 3.8.4 (no change required). 
+  * Update copyright for 2010.
+  * Switch to Debian Source Format V3; this implies a switch from dpatch to
+    quilt based patches.
+  * Implement DEP-3: Patch Tagging Guidelines
+  * Since the inclusion of kfreebsd variants Architecture: any no longer is
+    correct (it also neglects Debian ports like Nexenta). The value of
+    linux-any is not (yet) support (cf. #530687) so replace "any" by the
+    explicit list of architectures produced by
+    dpkg-architecture -L|grep -v solaris|grep -v openbsd|grep -v freebsd|grep
+    -v netbsd|grep -v darwin|grep -v hurd|grep -v uclinux|grep -v uclibc
+    The uclinux- and uclibc- variants should probably be included also, but to
+    keep the Architecture line sane (and hoping for linux-any soon) they are 
+    for now ignored.
+    Thanks to Chow Loong Jin and Andres Mejia for the hints.
+  * Add ${misc:Depends} to Depends: to please lintian.
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Wed, 03 Feb 2010 18:41:49 +0100
+
+linuxinfo (1.1.8-28) unstable; urgency=low
+
+  * Add another Core Duo CPU.
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Fri, 05 Jun 2009 17:17:44 +0200
+
+linuxinfo (1.1.8-27) unstable; urgency=low
+
+  * Add another Xeon CPU (addresses #529349).
+  * Update to standards version 3.8.1 (no change required). 
+  * On some (custom?) kernels the value used for switching to /proc/meminfo
+    seems to differ. For now include the newly found values, a proper fix
+    should be added later. This hopefully Closes: #529349
+    (The submitter blacklisted my e-mail address, hence please reopen if it 
+    is not fixed)
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Sun, 24 May 2009 12:10:04 +0200
+
+linuxinfo (1.1.8-26) unstable; urgency=low
+
+  * Add Core Solo CPU.
+  * Updated year of copyright
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Thu, 19 Mar 2009 19:10:58 +0100
+
+linuxinfo (1.1.8-25) unstable; urgency=low
+
+  * Explicitly mention all copyright holders in debian/copyright in the form
+    requested by lintian
+  * Add README.source, with this update to standards version 3.8.0
+  * Set DM-Upload-Allowed: yes
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Mon, 23 Jun 2008 19:25:31 +0200
+
+linuxinfo (1.1.8-24) unstable; urgency=low
+
+  * Add one Core 2 and two more Pentium 4.
+  * Update policy to 3.7.3.0, no changes required.
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Sun, 03 Feb 2008 07:53:00 +0100
+
+linuxinfo (1.1.8-23) unstable; urgency=low
+
+  * Add another Xeon CPU (Closes: 435360)
+  * Don't trust /proc/kcore sizes >\approx 4 GB on x86 machines
+    (Closes: 435361)
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Fri, 10 Aug 2007 21:12:00 +0200
+
+linuxinfo (1.1.8-22) unstable; urgency=low
+
+  * Add a Geode CPU by AMD and distinguish between AMD and Nat. Sem. ones
+  * Do not ignore errors in "make clean"
+  * No longer specify "DH_COMPAT=5" in debian/rules
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Mon, 30 Jul 2007 19:51:14 +0200
+
+linuxinfo (1.1.8-21) unstable; urgency=low
+
+  * Added the Sparc Niagra (Closes: 393584)
+  * Bump standards version (no changes required)
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Tue, 17 Oct 2006 18:38:41 +0200
+
+linuxinfo (1.1.8-20) unstable; urgency=low
+
+  * Add some more x86/x86_64 machines (Closes: 379481)
+  * Support more than 9 CPUs, starting with 13 a number is printed instead of
+    a string (Closes: 379488)
+  * Bail out immediately if /proc/cpuinfo is not readable (Closes: 379484)
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Sun, 30 Jul 2006 14:27:58 +0200
+
+linuxinfo (1.1.8-19) unstable; urgency=low
+
+  * Add two more sparc machines and do not use /proc/kcore on sparc as well
+  * Update my email address in more places
+  * Update to latest standard version (no changes required)
+  * Fix a typo in the Sparc output (Closes: #379351)
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Sun, 23 Jul 2006 11:54:06 +0200
+
+linuxinfo (1.1.8-18) unstable; urgency=low
+
+  * Use my new E-Mail address also in the control files.
+  * Add another Sempron, Closes: #362770
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Sun, 23 Apr 2006 14:57:44 +0000
+
+linuxinfo (1.1.8-17) unstable; urgency=low
+
+  * The layout of the RAM is non-trivial on MIPS as well, so the size of
+    /proc/kcore reflects the highest memory address, not necessarily
+    identically to the amount of RAM, so always use /proc/meminfo here,
+    Closes: #355908
+    Thanks to Thiemo Seufer for the explanation.
+  * Do not look for endianess on mips, its deprecated. Thanks to 
+    Martin Michlmayr for noticing and explanation.
+  * Use my new E-Mail address
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Sun,  9 Apr 2006 15:27:53 +0000
+
+linuxinfo (1.1.8-16) unstable; urgency=low
+
+  * Update to debhelper level 5
+  * Add the first semperon to the known CPUs
+  * Fix memory reporting on s390 (updated 16_s390-support.dpatch)
+    Thanks to Frans Pop for helping me.
+  * Remove superfluous space on big endian MIPS (addresses #355908)
+    Memory reporting is still broken on these machines.
+
+ -- Helge Kreutzmann <kreutzm@itp.uni-hannover.de>  Wed, 15 Mar 2006 20:55:03 +0100
+
+linuxinfo (1.1.8-15) unstable; urgency=low
+
+  * Even x86 / amd64 miss <string.h>, fixed.
+  * Update dependency on debhelper to say ">= 4"
+  * Include more information in bug reports to avoid asking the same
+    question each time
+  * Clarify that I maintain linuxinfo (Ola hasn't supplied anything since
+    I took over maintenance)
+
+ -- Helge Kreutzmann <kreutzm@itp.uni-hannover.de>  Sun, 12 Feb 2006 08:44:10 +0100
+
+linuxinfo (1.1.8-14) unstable; urgency=low
+
+  * Update to debhelper level 4
+  * Add a Celeron M CPU
+  * Almost all arches (except sparc) did not include <string.h>. Now even
+    arm has a patch (23_arm-fixes.dpatch). Hopefully no warnings occur at
+    compile-time anymore now.
+
+ -- Helge Kreutzmann <kreutzm@itp.uni-hannover.de>  Fri, 18 Nov 2005 18:10:50 +0100
+
+linuxinfo (1.1.8-13) unstable; urgency=low
+
+  * Update upstream's URL also in upstream's README (04_README.dpatch)
+  * Fix output of CPU on ppc (fixing 19_ppc-without_bogomips.dpatch)
+  * Add one more Pentium4 cpu
+  * Upgrade to policy 3.6.2.0 (no changes required)
+
+ -- Helge Kreutzmann <kreutzm@itp.uni-hannover.de>  Sun,  6 Nov 2005 11:38:16 +0100
+
+linuxinfo (1.1.8-12) unstable; urgency=low
+
+  * Add one more pentium4 machine
+  * Improve regular expression for highmem detection (needed for some 2.4)
+
+ -- Helge Kreutzmann <kreutzm@itp.uni-hannover.de>  Tue, 12 Apr 2005 15:07:22 +0200
+
+linuxinfo (1.1.8-11) unstable; urgency=medium
+
+  * Remove one debug statement on ia64
+  * Fix memory detection on highmem system (the original size is already
+    in kB, not in B as assumed previously)
+  * On ia64 memory may be discontinous, hence we cannot trust /proc/kcore's
+    size, always use alternate method.
+
+ -- Helge Kreutzmann <kreutzm@itp.uni-hannover.de>  Tue, 22 Mar 2005 12:54:04 +0100
+
+linuxinfo (1.1.8-10) unstable; urgency=low
+
+  * HPPA: Print CPU type and try to get memory size.
+  * IA64: For now always use family as model (improve later) and try to get memory size.
+  * Sparc: 18_sparc_update.dpatch (new): Add one more model and add an
+    alternate way to determine Bogomips value
+  * PPC: 19_ppc-without_bogomips.dpatch (new): Since some ppc machines do not
+    print bogomips the cpu counting had to be switched to the cpu-field.
+
+    Again thanks to all who provided me their machine infos.
+
+  * Added a new contact address of upstream.
+
+ -- Helge Kreutzmann <kreutzm@itp.uni-hannover.de>  Fri, 18 Mar 2005 19:10:41 +0100
+
+linuxinfo (1.1.8-9) unstable; urgency=low
+
+  * Join 13_x86-add-detection.dpatch and 21_model-detection_fix.dpatch
+    since they both operate on the same file.
+  * Add lots of amd64 machines (thanks all those who sent me their
+    info)
+
+ -- Helge Kreutzmann <kreutzm@itp.uni-hannover.de>  Wed, 23 Feb 2005 16:14:48 +0100
+
+linuxinfo (1.1.8-8) unstable; urgency=low
+
+  * Support highmem (on x86 at least) by reading /proc/meminfo.
+    This tends to be a few MB too low, though. Closes: #258997.
+  * Support SMP machines on the alpha architecture (at least the
+    one I have access to).
+  * Add more machines (grouped now in 13_x86-add-detection.dpatch)
+  * Fix miss-detection of Pentium MMX as Xeon.
+
+ -- Helge Kreutzmann <kreutzm@itp.uni-hannover.de>  Mon,  9 Aug 2004 20:27:33 +0200
+
+linuxinfo (1.1.8-7) unstable; urgency=low
+
+  * Make dependency on debhelper versioned.
+  * Add Pentium M. Thanks to Martin Michlmayr for the patch.
+    Closes: #258996.
+
+ -- Helge Kreutzmann <kreutzm@itp.uni-hannover.de>  Mon, 26 Jul 2004 21:47:39 +0200
+
+linuxinfo (1.1.8-6) unstable; urgency=low
+
+  * Convert to dpatch, remove old broken patch-system in sources.
+  * Support DEB_BUILD_OPTIONS: noopt
+  * Build with -g by default.
+  * Corrected a few typos in comments.
+  * Corrected spelling in german man page.
+  * Add support for amd64 as special case of Intel. Thanks to Andreas
+    Jochens for the information. Closes: #254504.
+  * Fixed section to match overrides. 
+
+ -- Helge Kreutzmann <kreutzm@itp.uni-hannover.de>  Sun, 11 Jul 2004 17:09:07 +0200
+
+linuxinfo (1.1.8-5) unstable; urgency=low
+
+  * New maintainer; Ola Lundqvist remains uploader.
+  * Added mips, closes: #243519. As I do not own a mips based machine,
+    please report incorrect information (with an attached output
+    of /proc/cpuinfo).
+  * Extend man page, closes: #178414 and #205971.
+  * Fix display on m68k, closes: #222762.
+  * Follow latest policy 3.6.1.0 (no changes required).
+  * Add german translation of man page.
+  * Support DEB_BUILD_OPTIONS: nostrip
+  * Mark debian/patches as unmaintained.
+
+ -- Helge Kreutzmann <kreutzm@itp.uni-hannover.de>  Sat, 29 May 2004 22:26:43 +0200
+
+linuxinfo (1.1.8-4) unstable; urgency=low
+
+  * Fixed build issue. Directory SGID, closes: #245602.
+
+ -- Ola Lundqvist <opal@debian.org>  Thu,  6 May 2004 07:39:55 +0200
+
+linuxinfo (1.1.8-3) unstable; urgency=low
+
+  * Fixed build problem on s390, closes: #199438.
+  * Updated upstream homepage.
+  * Updated standards version from 3.5.8 to 3.5.10.
+
+ -- Ola Lundqvist <opal@debian.org>  Sat, 16 Aug 2003 16:27:33 +0200
+
+linuxinfo (1.1.8-2) unstable; urgency=low
+
+  * Fix to make it work on ia64, closes: #105023.
+  * Fixed some lintian warnings about wrong mode on directories.
+  * Removed postinst and preinst files that set the FHS doc symlink.
+  * Fixed unsupported option, closes: #178417.
+    Thanks to Helge Kreutzmann <kreutzm@itp.uni-hannover.de> for the
+    patch.
+  * Now mention /proc/cpuinfo, closes: #178413.
+  * Added Athlon XP patch from Brian Almeida <bma@debian.org>,
+    closes: #186396.
+
+ -- Ola Lundqvist <opal@debian.org>  Thu, 17 Apr 2003 16:22:01 +0200
+
+linuxinfo (1.1.8-1) unstable; urgency=low
+
+  * New maintainer, closes: #174115, #129255.
+  * New upstream version.
+  * Updated standards version from 3.5.2.0 to 3.5.8.
+  * Removed full stop from Description line.
+  * Added config section in rules file to make rebuild
+    faster.
+  * New line in descriotion so it do not exceed 80 chars, closes:
+    #131005, #125678.
+  * Created patch for hppa and applied patch for ia64,
+    closes: #105023.
+
+ -- Ola Lundqvist <opal@debian.org>  Wed, 25 Dec 2002 19:12:12 +0100
+
+linuxinfo (1.1.7-2.1) unstable; urgency=low
+
+  * Non-maintainer upload
+  * Add support for s390. (Closes: #129255)
+
+ -- Gerhard Tonn <gt@debian.org>  Tue, 29 Jan 2002 06:44:31 +0100
+  
+linuxinfo (1.1.7-2) unstable; urgency=low
+
+  * Fixed m68k define, (Closes: #93005)
+
+ -- Brian Russo <wolfie@debian.org>  Fri,  6 Apr 2001 07:35:52 -1000
+
+linuxinfo (1.1.7-1) unstable; urgency=low
+
+  * New uptream version.
+  * New maintainer (Closes: #92256)
+  * Removed README.Debian, unnecessary.
+  * Fixed manpage so it displays properly.
+  * Use debhelper less.
+  * FHS-compliant (Closes: #89988, #91204, #91572)
+
+ -- Brian Russo <wolfie@debian.org>  Wed,  4 Apr 2001 00:26:57 -1000
+
+linuxinfo (1.1.2-1) unstable; urgency=low
+
+  * New upstream version.
+  * Going to send the diff to fix the m68k compile failure to Mr. Alex Buell ONCE AGAIN! Maybe he'll take it this time.
+        
+ -- Erick Kinnee <cerb@debian.org>  Sun, 30 May 1999 16:42:41 -0500
+       
+linuxinfo (1.0.6-1) unstable; urgency=low
+
+  * New upstream version.
+  * Had to pull 1.0.4-5 due to the fact that glibc-2.1 wasn't in potato at the time.
+  * So, here we have Linuxinfo linked against glibc-2.1. closes: #34570
+  
+ -- Erick Kinnee <cerb@debian.org>  Sun, 14 Mar 1999 20:46:59 -0600 
+
+linuxinfo (1.0.4-5) unstable; urgency=low
+
+  * Compiled against glibc2.1
+  
+ -- Erick Kinnee <cerb@debian.org>  Sat, 13 Feb 1999 20:22:24 -0600
+  
+linuxinfo (1.0.4-4) unstable; urgency=low
+
+  * Fixed the problem w/compile on m68k. #if defined(m68000) changed to (__m68000__)
+  
+ -- Erick Kinnee <cerb@debian.org>  Mon, 14 Dec 1998 20:55:06 -0500
+ 
+linuxinfo (1.0.4-3) unstable; urgency=low
+
+  * Revised short and long package descriptions.
+   
+ -- Erick Kinnee <cerb@debian.org>  Wed, 09 Dec 1998 21:56:28 -0500
+  
+linuxinfo (1.0.4-2) unstable; urgency=low
+
+  * Fixed non-removal of 'debian/files' and 'debian/substvars'. Also removed /usr/sbin
+  from the deb.
+  
+ -- Erick Kinnee <cerb@debian.org>  Sat, 04 Dec 1998 20:57:00 -0600 
+  
+linuxinfo (1.0.4-1) unstable; urgency=low
+
+  * This is the initial release. More work is being done...
+
+ -- Erick Kinnee <ekinnee1@airmail.net>  Sun,  1 Nov 1998 13:09:36 -0600

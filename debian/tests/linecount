@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -e
+
+LC=$(linuxinfo | wc -l)
+
+if [ "$LC" == 3 ]; then
+    exit 0
+else
+    exit 1
+fi

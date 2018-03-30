@@ -1,0 +1,13 @@
+linuxinfo (2.3.1-1) unstable; urgency=medium
+
+  The arm support is now under heavy development (after more than 10
+  years of probably broken support).
+
+  If you have an arm machine, please send me the results of
+  linuxinfo, preferably with a brief description and using 
+  reportbug.
+
+  For more background, please read
+  https://lists.debian.org/debian-arm/2016/03/msg00006.html
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Mon, 14 Mar 2016 15:38:51 +0100

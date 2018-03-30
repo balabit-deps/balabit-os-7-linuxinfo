@@ -1,0 +1,11 @@
+#!/bin/sh
+
+echo "/proc/cpuinfo:" >&3
+cat /proc/cpuinfo >&3
+
+echo "Size of /proc/kcore:" >&3
+ls -l /proc/kcore >&3
+
+echo "" >&3
+echo "/proc/meminfo:" >&3
+cat /proc/meminfo >&3

@@ -1,0 +1,4 @@
+version=4
+opts="pgpsigurlmangle=s%$%.sig%" http://www.helgefjell.de/linuxinfoitem.php?name=download http://www.helgefjell.de/data/linuxinfo/@PACKAGE@-@ANY_VERSION@\.tar\.xz debian uupdate
+# 
+# Helge Kreutzmann <debian@helgefjell.de>  Thu, 30 October 2016 10:45:00 +0100
