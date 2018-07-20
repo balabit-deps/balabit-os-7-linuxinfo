@@ -1,0 +1,134 @@
+# linuxinfo po-debconf translation to Spanish
+# Copyright (C) 2014 Software in the Public Interest
+# This file is distributed under the same license as the linuxinfo package.
+#
+# Changes:
+#   - Initial translation
+#       Matías A. Bellone <matiasbellone+debian@gmail.com>, 2014
+#
+# Traductores, si no conocen el formato PO, merece la pena leer la
+# documentación de gettext, especialmente las secciones dedicadas a este
+# formato, por ejemplo ejecutando:
+#       info -n '(gettext)PO Files'
+#       info -n '(gettext)Header Entry'
+#
+# Equipo de traducción al español, por favor lean antes de traducir
+# los siguientes documentos:
+#
+#   - El proyecto de traducción de Debian al español
+#     http://www.debian.org/intl/spanish/
+#     especialmente las notas y normas de traducción en
+#     http://www.debian.org/intl/spanish/notas
+#
+#   - La guía de traducción de po's de debconf:
+#     /usr/share/doc/po-debconf/README-trans
+#     o http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxinfo 1.9.1\n"
+"Report-Msgid-Bugs-To: Helge Kreutzmann <debian@helgefjell.de>\n"
+"POT-Creation-Date: 2018-03-25 14:07+0200\n"
+"PO-Revision-Date: 2014-07-20 12:20-0300\n"
+"Last-Translator: Matías A. Bellone <matiasbellone+debian@gmail.com>\n"
+"Language-Team: Debian l10n Spanish <debian-l10n-spanish@lists.debian.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: linuxinfo.c:57
+msgid "Unknown"
+msgstr "Desconocido"
+
+#: linuxinfo.c:57
+msgid "One"
+msgstr "Uno"
+
+#: linuxinfo.c:57
+msgid "Two"
+msgstr "Dos"
+
+#: linuxinfo.c:57
+msgid "Three"
+msgstr "Tres"
+
+#: linuxinfo.c:57
+msgid "Four"
+msgstr "Cuatro"
+
+#: linuxinfo.c:57
+msgid "Five"
+msgstr "Cinco"
+
+#: linuxinfo.c:57
+msgid "Six"
+msgstr "Seis"
+
+#: linuxinfo.c:57
+msgid "Seven"
+msgstr "Siete"
+
+#: linuxinfo.c:57
+msgid "Eight"
+msgstr "Ocho"
+
+#: linuxinfo.c:57
+msgid "Nine"
+msgstr "Nueve"
+
+#: linuxinfo.c:57
+msgid "Ten"
+msgstr "Diez"
+
+#: linuxinfo.c:57
+msgid "Eleven"
+msgstr "Once"
+
+#: linuxinfo.c:57
+msgid "Twelve"
+msgstr "Doce"
+
+#: linuxinfo.c:81
+#, c-format
+msgid " -h   print this help\n"
+msgstr " -h   mostrar este mensaje de ayuda\n"
+
+#: linuxinfo.c:82
+#, c-format
+msgid " -v   print linuxinfo version\n"
+msgstr " -v   mostrar versión de linuxinfo\n"
+
+#: linuxinfo.c:89
+#, c-format
+msgid "Unsupported option or file %s not found.\n"
+msgstr "Opción incompatible o no se encontró el archivo «%s».\n"
+
+#: linuxinfo.c:98
+#, c-format
+msgid "Could not open %s.\n"
+msgstr "No se pudo abrir «%s».\n"
+
+#: linuxinfo.c:124
+#, c-format
+msgid "processor"
+msgid_plural "processors"
+msgstr[0] "procesador"
+msgstr[1] "procesadores"
+
+#: linuxinfo.c:127
+#, c-format
+msgid ", %s total bogomips, %sM RAM\n"
+msgstr ", %s bogomips totales, %sM de RAM\n"
+
+#: linuxinfo.c:134
+#, c-format
+msgid "System library %s\n"
+msgstr "Biblioteca del sistema %s\n"
+
+#: linuxinfo_common.c:143
+#, c-format
+msgid "Could not stat /proc/meminfo, result can be inaccurate\n"
+msgstr ""
+"No se pudo acceder a «/proc/meminfo», el resultado pueder ser inexacto\n"

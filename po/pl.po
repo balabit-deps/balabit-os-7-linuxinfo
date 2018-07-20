@@ -1,0 +1,115 @@
+# Translation of linuxinfo to Polish.
+# Copyright (C) 2013 Helge Kreutzmann <debian@helgefjell.de>
+# This file is distributed under the same license as the linuxinfo package.
+#
+# Michał Kułach <michal.kulach@gmail.com>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxinfo 1.9.1\n"
+"Report-Msgid-Bugs-To: Helge Kreutzmann <debian@helgefjell.de>\n"
+"POT-Creation-Date: 2018-03-25 14:07+0200\n"
+"PO-Revision-Date: 2014-07-20 13:25+0200\n"
+"Last-Translator: Michał Kułach <michal.kulach@gmail.com>\n"
+"Language-Team: Polish <debian-l10n-polish@lists.debian.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.4\n"
+
+#: linuxinfo.c:57
+msgid "Unknown"
+msgstr "Nieznane"
+
+#: linuxinfo.c:57
+msgid "One"
+msgstr "jeden"
+
+#: linuxinfo.c:57
+msgid "Two"
+msgstr "dwa"
+
+#: linuxinfo.c:57
+msgid "Three"
+msgstr "trzy"
+
+#: linuxinfo.c:57
+msgid "Four"
+msgstr "cztery"
+
+#: linuxinfo.c:57
+msgid "Five"
+msgstr "pięć"
+
+#: linuxinfo.c:57
+msgid "Six"
+msgstr "sześć"
+
+#: linuxinfo.c:57
+msgid "Seven"
+msgstr "siedem"
+
+#: linuxinfo.c:57
+msgid "Eight"
+msgstr "osiem"
+
+#: linuxinfo.c:57
+msgid "Nine"
+msgstr "dziewięć"
+
+#: linuxinfo.c:57
+msgid "Ten"
+msgstr "dziesięć"
+
+#: linuxinfo.c:57
+msgid "Eleven"
+msgstr "jedenaście"
+
+#: linuxinfo.c:57
+msgid "Twelve"
+msgstr "dwanaście"
+
+#: linuxinfo.c:81
+#, c-format
+msgid " -h   print this help\n"
+msgstr " -h   wypisuje tę pomoc\n"
+
+#: linuxinfo.c:82
+#, c-format
+msgid " -v   print linuxinfo version\n"
+msgstr " -v   wypisuje wersję linuxinfo\n"
+
+#: linuxinfo.c:89
+#, c-format
+msgid "Unsupported option or file %s not found.\n"
+msgstr "Nieobsługiwana opcja lub nie znaleziono pliku %s.\n"
+
+#: linuxinfo.c:98
+#, c-format
+msgid "Could not open %s.\n"
+msgstr "Nie można otworzyć %s.\n"
+
+#: linuxinfo.c:124
+#, c-format
+msgid "processor"
+msgid_plural "processors"
+msgstr[0] "procesor"
+msgstr[1] "procesory"
+msgstr[2] "procesorów"
+
+#: linuxinfo.c:127
+#, c-format
+msgid ", %s total bogomips, %sM RAM\n"
+msgstr ", w sumie %s bogomips, %sM RAM\n"
+
+#: linuxinfo.c:134
+#, c-format
+msgid "System library %s\n"
+msgstr "Biblioteka systemowa %s\n"
+
+#: linuxinfo_common.c:143
+#, c-format
+msgid "Could not stat /proc/meminfo, result can be inaccurate\n"
+msgstr "Nie można wykonać stat na /proc/meminfo, wynik może być niedokładny\n"

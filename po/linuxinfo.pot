@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Helge Kreutzmann <debian@helgefjell.de>
+# This file is distributed under the same license as the linuxinfo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxinfo 2.5.0\n"
+"Report-Msgid-Bugs-To: Helge Kreutzmann <debian@helgefjell.de>\n"
+"POT-Creation-Date: 2018-03-25 14:07+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: linuxinfo.c:57
+msgid "Unknown"
+msgstr ""
+
+#: linuxinfo.c:57
+msgid "One"
+msgstr ""
+
+#: linuxinfo.c:57
+msgid "Two"
+msgstr ""
+
+#: linuxinfo.c:57
+msgid "Three"
+msgstr ""
+
+#: linuxinfo.c:57
+msgid "Four"
+msgstr ""
+
+#: linuxinfo.c:57
+msgid "Five"
+msgstr ""
+
+#: linuxinfo.c:57
+msgid "Six"
+msgstr ""
+
+#: linuxinfo.c:57
+msgid "Seven"
+msgstr ""
+
+#: linuxinfo.c:57
+msgid "Eight"
+msgstr ""
+
+#: linuxinfo.c:57
+msgid "Nine"
+msgstr ""
+
+#: linuxinfo.c:57
+msgid "Ten"
+msgstr ""
+
+#: linuxinfo.c:57
+msgid "Eleven"
+msgstr ""
+
+#: linuxinfo.c:57
+msgid "Twelve"
+msgstr ""
+
+#: linuxinfo.c:81
+#, c-format
+msgid " -h   print this help\n"
+msgstr ""
+
+#: linuxinfo.c:82
+#, c-format
+msgid " -v   print linuxinfo version\n"
+msgstr ""
+
+#: linuxinfo.c:89
+#, c-format
+msgid "Unsupported option or file %s not found.\n"
+msgstr ""
+
+#: linuxinfo.c:98
+#, c-format
+msgid "Could not open %s.\n"
+msgstr ""
+
+#: linuxinfo.c:124
+#, c-format
+msgid "processor"
+msgid_plural "processors"
+msgstr[0] ""
+msgstr[1] ""
+
+#: linuxinfo.c:127
+#, c-format
+msgid ", %s total bogomips, %sM RAM\n"
+msgstr ""
+
+#: linuxinfo.c:134
+#, c-format
+msgid "System library %s\n"
+msgstr ""
+
+#: linuxinfo_common.c:143
+#, c-format
+msgid "Could not stat /proc/meminfo, result can be inaccurate\n"
+msgstr ""

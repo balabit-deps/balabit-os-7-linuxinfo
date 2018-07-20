@@ -1,0 +1,112 @@
+# Danish translation linuxinfo.
+# Copyright (C) 2014 the linuxinfo team.
+# This file is distributed under the same license as the linuxinfo package.
+# Joe Hansen <joedalton2@yahoo.dk>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxinfo 1.9.1\n"
+"Report-Msgid-Bugs-To: Helge Kreutzmann <debian@helgefjell.de>\n"
+"POT-Creation-Date: 2018-03-25 14:07+0200\n"
+"PO-Revision-Date: 2014-07-20 21:27+0200\n"
+"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
+"Language-Team: Danish <debian-l10n-danish@lists.debian.org>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: linuxinfo.c:57
+msgid "Unknown"
+msgstr "Ukendt"
+
+#: linuxinfo.c:57
+msgid "One"
+msgstr "En"
+
+#: linuxinfo.c:57
+msgid "Two"
+msgstr "To"
+
+#: linuxinfo.c:57
+msgid "Three"
+msgstr "Tre"
+
+#: linuxinfo.c:57
+msgid "Four"
+msgstr "Fire"
+
+#: linuxinfo.c:57
+msgid "Five"
+msgstr "Fem"
+
+#: linuxinfo.c:57
+msgid "Six"
+msgstr "Seks"
+
+#: linuxinfo.c:57
+msgid "Seven"
+msgstr "Syv"
+
+#: linuxinfo.c:57
+msgid "Eight"
+msgstr "Otte"
+
+#: linuxinfo.c:57
+msgid "Nine"
+msgstr "Ni"
+
+#: linuxinfo.c:57
+msgid "Ten"
+msgstr "Ti"
+
+#: linuxinfo.c:57
+msgid "Eleven"
+msgstr "Elleve"
+
+#: linuxinfo.c:57
+msgid "Twelve"
+msgstr "Tolv"
+
+#: linuxinfo.c:81
+#, c-format
+msgid " -h   print this help\n"
+msgstr " -h   vis denne hjælpetekst\n"
+
+#: linuxinfo.c:82
+#, c-format
+msgid " -v   print linuxinfo version\n"
+msgstr " -v   vis linuxinfos versionsnr.\n"
+
+#: linuxinfo.c:89
+#, c-format
+msgid "Unsupported option or file %s not found.\n"
+msgstr "Tilvalg er ikke understøttet eller filen %s blev ikke fundet.\n"
+
+#: linuxinfo.c:98
+#, c-format
+msgid "Could not open %s.\n"
+msgstr "Kunne ikke åbne %s.\n"
+
+#: linuxinfo.c:124
+#, c-format
+msgid "processor"
+msgid_plural "processors"
+msgstr[0] "processor"
+msgstr[1] "processorer"
+
+#: linuxinfo.c:127
+#, c-format
+msgid ", %s total bogomips, %sM RAM\n"
+msgstr ", %s i alt bogomips, %sM RAM\n"
+
+#: linuxinfo.c:134
+#, c-format
+msgid "System library %s\n"
+msgstr "Systembibliotek %s\n"
+
+#: linuxinfo_common.c:143
+#, c-format
+msgid "Could not stat /proc/meminfo, result can be inaccurate\n"
+msgstr "Kunne ikke køre (stat) /proc/meminfo, resultatet kan være upræcist\n"

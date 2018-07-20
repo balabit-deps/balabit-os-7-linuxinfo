@@ -1,0 +1,54 @@
+This is linuxinfo, used on Linux platforms.
+
+The latest releases are always available at:
+
+        http://www.helgefjell.de/linuxinfoitem.php?name=download
+
+Previously version were available at
+	http://www.munted.org.uk/programming/
+(Note that this domain is no longer active).
+
+linuxinfo was initially written by Alex Buell, alex.buell@munted.org.uk.
+Maintainership was transferred to Helge Kreutzmann <debian@helgefjell.de>
+in 2014 who integrated the patches that had been accumulated in the Debian
+versions of linuxinfo.
+
+See the CREDITS file for a list of folks who have helped us out. linuxinfo
+is copyrighted under the terms of the GPL 2+ and LGPL 2 (See the COPYING file for
+the details).[1]
+ 
+To build, simply use:
+
+	./configure 
+	make
+
+Once it's finished the make process, su to root (if not already root), and
+use:
+
+	make install
+
+to install the linuxinfo binary and man page to the appropriate
+directories. Default is for the binary to go into /usr/local/bin and for
+the man page to go into /usr/local/man/man1. You can change this by using
+the --prefix in ./configure if required.
+
+Linuxinfo contains localized versions of the man page.
+
+If linuxinfo does not recognize your CPU, please send me a copy of your 
+/proc/cpuinfo file, and I shall fix it for next version. Thanks. 
+
+NOTE! linuxinfo has no capability to detect the clock speed on kernels
+older than 2.1.x, *or* on low end processors.
+
+[1] On 2014-04-26 Alex agreed to relicense linuxinfo to GPL 2+ (from GPL 2).
+    However, not all contributors have yet been contacted, so the "+" is 
+    pending agreement from them.
+
+    Currently agreed: 
+    Alex Buell
+    Helge Kreutzmann
+    Martin Michlmayr
+    Andreas Jochens
+    Erick Kinnee
+    Ola Lundqvist
+    Nobuhiro Iwamatsu

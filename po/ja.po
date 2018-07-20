@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Helge Kreutzmann <debian@helgefjell.de>
+# This file is distributed under the same license as the linuxinfo package.
+# victory <victory.deb@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxinfo 1.9.1\n"
+"Report-Msgid-Bugs-To: Helge Kreutzmann <debian@helgefjell.de>\n"
+"POT-Creation-Date: 2018-03-25 14:07+0200\n"
+"PO-Revision-Date: 2013-12-07 05:10+0900\n"
+"Last-Translator: victory <victory.deb@gmail.com>\n"
+"Language-Team: Japanese <debian-japanese@lists.debian.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: linuxinfo.c:57
+msgid "Unknown"
+msgstr "不明"
+
+#: linuxinfo.c:57
+msgid "One"
+msgstr "1"
+
+#: linuxinfo.c:57
+msgid "Two"
+msgstr "2"
+
+#: linuxinfo.c:57
+msgid "Three"
+msgstr "3"
+
+#: linuxinfo.c:57
+msgid "Four"
+msgstr "4"
+
+#: linuxinfo.c:57
+msgid "Five"
+msgstr "5"
+
+#: linuxinfo.c:57
+msgid "Six"
+msgstr "6"
+
+#: linuxinfo.c:57
+msgid "Seven"
+msgstr "7"
+
+#: linuxinfo.c:57
+msgid "Eight"
+msgstr "8"
+
+#: linuxinfo.c:57
+msgid "Nine"
+msgstr "9"
+
+#: linuxinfo.c:57
+msgid "Ten"
+msgstr "10"
+
+#: linuxinfo.c:57
+msgid "Eleven"
+msgstr "11"
+
+#: linuxinfo.c:57
+msgid "Twelve"
+msgstr "12"
+
+#: linuxinfo.c:81
+#, c-format
+msgid " -h   print this help\n"
+msgstr " -h   このヘルプを表示します\n"
+
+#: linuxinfo.c:82
+#, c-format
+msgid " -v   print linuxinfo version\n"
+msgstr " -v   linuxinfo バージョンを表示します\n"
+
+#: linuxinfo.c:89
+#, c-format
+msgid "Unsupported option or file %s not found.\n"
+msgstr ""
+"オプションがサポートされていないかファイル %s が見つかりませんでした。\n"
+
+#: linuxinfo.c:98
+#, c-format
+msgid "Could not open %s.\n"
+msgstr "%s を開けませんでした。\n"
+
+#: linuxinfo.c:124
+#, c-format
+msgid "processor"
+msgid_plural "processors"
+msgstr[0] "プロセッサ"
+
+#: linuxinfo.c:127
+#, c-format
+msgid ", %s total bogomips, %sM RAM\n"
+msgstr "、bogomips 合計 %s、RAM %sM\n"
+
+#: linuxinfo.c:134
+#, c-format
+msgid "System library %s\n"
+msgstr "システムライブラリ %s\n"
+
+#: linuxinfo_common.c:143
+#, c-format
+msgid "Could not stat /proc/meminfo, result can be inaccurate\n"
+msgstr ""
+"/proc/meminfo の情報を取得できませんでした。結果は正確さに欠けるかもしれませ"
+"ん\n"

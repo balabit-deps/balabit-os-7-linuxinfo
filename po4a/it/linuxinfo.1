@@ -1,0 +1,37 @@
+.\" Copyright 1998 Alex Buell (alex.buell@munted.eu)
+.\" Copyright 2014 Helge Kreutzmann (debian@helgefjell.de)
+.\" May be distributed under the GNU General Public License
+.\"*******************************************************************
+.\"
+.\" This file was generated with po4a. Translate the source file.
+.\"
+.\"*******************************************************************
+.TH LinuxInfo 1 "9 agosto 2014" Linux Software
+.SH NOME
+linuxinfo \- visualizza informazioni sul sistema.
+.SH SINTASSI
+\fBlinuxinfo\fP [\fI\-h\fP | \fI\-v\fP | \fInome_file\fP]
+.SH DESCRIZIONE
+Visualizza le informazioni sul sistema, inclusi versione del kernel, numero
+e tipo di processori nel sistema, versione delle librerie di sistema (libc o
+glibc).
+.SH OPZIONI
+.TP 
+\fB\-v\fP
+Stampa informazioni sulla versione.
+.TP 
+\fB\-h\fP
+Stampa un breve aiuto.
+.TP 
+\fBnome_file\fP
+Usa una fonte alternativa per le informazioni di sistema (in modo
+predefinito \fB/proc/cpuinfo\fP).
+.SH AUTORI
+Alex Buell <alex.buell@munted.eu>, Helge Kreutzmann
+<debian@helgefjell.de>
+.SH BUG
+Quali bug? ;o) Sentiamo!
+
+Alcune CPU non sono ancora rilevate. Informare l'autore (Helge) se la
+propria è tra queste.
+.sp

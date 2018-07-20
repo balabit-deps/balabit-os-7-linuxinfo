@@ -1,0 +1,70 @@
+Work on linuxinfo was done primarily by:
+
+	Alex Buell, alex.buell@munted.org.uk
+
+Significant code, ideas, or porting help have been contributed by:
+
+	Johnny Tevessen, j.tevessen@gmx.de (contributed the autoconf stuff - COOL!)
+	Stany, stany@zerkalo.istar.net (alerted me to the existence of a commercial package)
+	Vince Weaver, weaver@eng.umd.edu (parts of code was taken from linux_logo 2.10)
+
+Development done in Debian
+
+        Erick Kinnee <cerb@debian.org> 1999: Fixed compile problems on m68k
+	                               2004: Option handling  
+	Brian Russo <wolfie@debian.org> 2001: Fixed manpage so it displays properly.
+	Gerhard Tonn <gt@debian.org> 2002: Add support for s390.
+	"John R. Daily" <jdaily@progeny.com> 2002: A patch for ia64 for linuxinfo.
+	Ola Lundqvist <opal@debian.org> 2002: Created patch for hppa
+				        2003: Fix build for ia64
+					      Fix build for s360
+        Brian Almeida <bma@debian.org> 2003: Support for Athlon XP/MP
+	Andreas Jochens <aj@andaco.de> 2004: Add support for amd64
+	Martin Michlmayr <tbm@cyrius.com> 2004: Add support for Pentium M
+	Helge Kreutzmann <kreutzm@itp.uni-hannover.de> 2004: Mips: Add support for this architecture
+							     M68k: Fix output
+							     Manpage: Completely describe options
+							              Add German version
+							     Fix detection in case HIGHMEM is in use
+							     Fix miss-detection of Pentium MMX as Xeon
+							     Alpha: Support SMP setups
+							     X86: Add lots of machines
+							     Makefile.in: Use tar and fix for new architectures
+						       2005: ia64: For now always use family as model (improve later)
+						                   /proc/kcore cannot be trusted, always use alternate method
+	                                                     HPPA: Print CPU type and try to get memory size.
+							     AMD64: Add lots of machines
+							     Sparc: Add more known models and alternate BogoMips routine
+							     PPC: Fix multicpu-detection without bogomips
+							          Fix output of CPU
+							     Fix memory detection on highmem system
+							     X86: Add more machines
+							     Fix URL in README
+							     Properly include <string.h> where missing
+                                                       2006: X86/Amd64: Add more machines
+						             MIPS: Remove superfluous space on big endian MIPS
+							           Fix memory detection
+								   Do not look for endianess
+							     S390: Fix memory reporting
+							     Sparc: Do not use /proc/kcore
+							            Fix a typo and add more machines
+							     Support more than 9 CPUs
+							     Bail out immediately if /proc/cpuinfo is not readable
+						       2007: X86/Amd64: Add more machines
+						             Fix reporting for memore >\approx 4 GB on x86
+						       2008: X86/Amd64: Add more machines
+						       2009: X86/Amd64: Add more machines
+						             Relax check for /proc/meminfo usage
+						       2010: Avr: Add this architecture
+						             X86/Amd64: Add more machines
+						       2011: Fix resource leak
+						             X86/Amd64: Add more machines
+						       2013: X86/Amd64: Add more machines
+						             Always parse /proc/meminfo
+							     Modernize and reduce auto* files
+							     (initial) i18n
+							     initial German translation
+        Nobuhiro Iwamatsu: 2010: sh: Initial patch to support sh
+
+New Upstream development (cf. Changelog and git log)
+        Helge Kreutzmann <debian@helgefjell.de> 2014

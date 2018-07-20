@@ -1,0 +1,530 @@
+25 March 2018 Helge Kreutzmann <debian@helgefjell.de>
+
+- Release version 2.5.0
+
+25 March 2018 Helge Kreutzmann <debian@helgefjell.de>
+
+- Fix CPU counting on "modern" ARM
+
+09 September 2017 Helge Kreutzmann <debian@helgefjell.de>
+
+- Release version 2.4.5
+
+09 September 2017 Helge Kreutzmann <debian@helgefjell.de>
+
+- Add Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz
+- Add Intel(R) Xeon(R) CPU           E5345  @ 2.33GHz
+- Add AMD Opteron 23xx (Gen 3 Class Opteron)
+
+17 November 2016 Helge Kreutzmann <debian@helgefjell.de>
+
+- Release version 2.4.4
+
+17 November 2016 Helge Kreutzmann <debian@helgefjell.de>
+
+- Add Intel(R) Pentium(R) CPU G2020T @ 2.50GHz
+- Add Mobile Intel(R) Celeron(TM) CPU          733MHz
+- Add Intel(R) Core(TM)2 Quad CPU    Q6600  @ 2.40GHz
+- Add Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz
+- Add Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz
+- Add Intel(R) Atom(TM) CPU N450   @ 1.66GHz
+
+30 October 2016 Helge Kreutzmann <debian@helgefjell.de>
+
+- Release version 2.4.3
+
+30 October 2016 Helge Kreutzmann <debian@helgefjell.de>
+
+- Add Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz
+
+16 October 2016 Helge Kreutzmann <debian@helgefjell.de>
+
+- Add AMD Athlon(tm) II X4 620 Processor
+
+18 September 2016 Helge Kreutzmann <debian@helgefjell.de>
+
+- Release version 2.4.2
+
+21 September 2016 Fernando Seiti Furusato <ferseiti@linux.vnet.ibm.com>
+
+- Add missing brace to get linuxinfo to build on ppc and ppc64el
+
+18 September 2016 Helge Kreutzmann <debian@helgefjell.de>
+
+- Release version 2.4.1
+
+18 September 2016 Helge Kreutzmann <debian@helgefjell.de>
+
+- Correct README in regard of the man page
+
+18 September 2016 Helge Kreutzmann <debian@helgefjell.de>
+
+- Always detect and report fastest CPU where possible
+
+12 September 2016 Matthijs Melchior <mmelchior@xs4all.nl>
+
+- Add Intel(R) Core(TM)2 Duo CPU     E6750  @ 2.66GHz
+
+10 September 2016 Helge Kreutzmann <debian@helgefjell.de>
+
+- Add serveral #includes to avoid implicit declarations
+
+10 September 2016 Helge Kreutzmann <debian@helgefjell.de>
+
+- Add the first AMD FX(tm)-4300 Quad-Core Processor
+
+04 March 2016 Helge Kreutzmann <debian@helgefjell.de>
+
+- Release version 2.3.1
+
+05 July 2015 Helge Kreutzmann <debian@helgefjell.de>
+
+- Release version 2.2.3
+
+22 November 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+- The first Core Quad
+
+12 November 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+- Add another Core 
+
+03 November 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+- Don't add the vendor name inside CPU names, it's redundant
+- Add another Core 2 Duo
+
+12 October 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+- Add an "AMD A6-6310 with Radeon R4"
+- Release version 2.2.2
+
+30 September 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+- Fix a comment in m4/linuxinfo-progs.m4
+
+29 September 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+- Fix compilation on PPC(64el) and S390(x).
+
+20 September 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+- Remove useless (commented out) memory size calcuation
+
+17 September 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+- Print "?" if no bogomips could be detected
+
+15 September 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+- Remove useless variable tempbogo where applicable
+
+31 August 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+- Release 2.1.0
+
+30 August 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+- Initial danish man page translation. Thanks to Joe Hansen
+<joedalton2@yahoo.dk>
+
+24 August 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+- Initial polish man page translation. Thanks to Micha◈ Ku◈ach
+<michal.kulach@gmail.com>
+
+24 August 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+- Initial italian man page translation. Thanks to Beatrice Torracca
+<beatricet@libero.it>
+
+21 August 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+- Initial russian man page translation. Thanks to Yuri Kozlov
+<yuray@komyakino.ru>
+
+12 August 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+- Initial czech man page translation. Thanks to Michal Simunek
+<michal.simunek@gmail.com>
+
+10 August 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+- Initial portugese man page translation. Thanks to Américo Monteiro
+<a_monteiro@gmx.com>
+
+09 August 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+- Po4a infrastructure now operational for man pages
+
+13 August 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+- Release 2.0.1
+
+12 August 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+- Initial czech translation thanks to Michal Simunek
+  <michal.simunek@gmail.com>
+
+2 August 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+- Initial japanese translation thanks to victory <victory.deb@gmail.com>
+
+1 August 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+- Release 2.0.0
+
+31 July 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+ - Initial italian translation thanks to Beatrice Torracca
+   <beatricet@libero.it>
+
+31 July 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+ - Initial spanish translation thanks to "Matias A. Bellone"
+   <matiasbellone+debian@gmail.com>
+
+30 July 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+ - Initial polish translation thanks to Micha◈ Ku◈ach <michalkulach@gmail.com>
+
+28 July 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+ - Initial french translation thanks to Jean-Pierre Giraud
+   <jean-pierregiraud@neuf.fr>
+
+20 July 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+ - Initial danish translation thanks to Joe Dalton <joedalton2@yahoo.dk>
+
+17 July 2014 Helge Kreutzmann <debian@helgefjell.de>
+ 
+ - Initial portugese translation thanks to Américo Monteiro
+   <a_monteiro@gmx.com>
+ - Initial russian translation thanks to Yuri Kozlov <yuray@komyakino.ru>
+
+26 May 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+- Start relicensing from GPL 2 → GPL 2+
+
+1 May 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+- Add initial support for arm64 (untested)
+
+17 April 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+- Correct a printf call in linuxinfo.c
+
+30 March 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+- Update README
+- No need to have separate Changelogs in m4/ and po/
+- Do not ship po/*.gmo and po/stamp-po
+- Update Alex e-mail adress everywhere
+- Update copyright notices in source files
+- Release 1.9.4
+
+13 March 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+- Rename linuxinfo.1.de into linuxinfo.de.1
+- Add myself in AUTHOR
+
+06 February 2014 Helge Kreutzmann <debian@helgefjell.de>
+
+- Fix printing of Bogomips value for non C locales
+
+06 December 2013 Helge Kreutzmann <debian@helgefjell.de>
+
+- Autogenerate auto* files
+- Makefile.am (ACLOCAL_AMFLAGS): New variable. 
+  (EXTRA_DIST): Add config.rpath, m4/ChangeLog.
+  from gettext-0.18.3.
+- configure.ac (AC_OUTPUT): Add po/Makefile.in.
+-Initial i18n by gettext, not yet 100% perfect (especially for plural forms)
+-Initial German translation
+
+14 November 2013 Helge Kreutzmann <debian@helgefjell.de>
+
+- Add another Xeon.
+
+28 September 2013 Helge Kreutzmann <debian@helgefjell.de>
+
+- Add the first Athlon 62 X2
+- Always parse /proc/meminfo
+
+4 November 2011 Helge Kreutzmann <debian@helgefjell.de>
+
+- Add another Xeon
+
+25 July 2011 Helge Kreutzmann <debian@helgefjell.de>
+
+- Add first Phenom II CPU
+
+04 January 2011 Helge Kreutzmann <debian@helgefjell.de>
+
+- Fix resource leak found by DACA/cppcheck.
+
+10 March 2010 Nobuhiro Iwamatsu <iwamatsu@nigauri.org>
+
+- Fix build on sh4.
+
+28 February 2010 Helge Kreutzmann <debian@helgefjell.de>
+
+- Add initial avr32 port.
+- Add another Core Duo
+
+1 January 2010 Nobuhiro Iwamatsu <iwamatsu@nigauri.org>
+
+- Renesas SuperH support
+
+5 June 2009 Helge Kreutzmann <debian@helgefjell.de>
+
+- Add another Core Duo CPU.
+
+24 May 2009 Helge Kreutzmann <debian@helgefjell.de>
+
+- Add another Xeon CPU
+- Relax check for /proc/meminfo usage
+  On some (custom?) kernels the value used for switching to /proc/meminfo
+  seems to differ. For now include the newly found values, a proper fix
+  should be added later.
+
+19 March 2009 Helge Kreutzmann <debian@helgefjell.de>
+
+- Add Core Solo CPU.
+
+3 February 2008 Helge Kreutzmann <debian@helgefjell.de>
+
+- Add one Core 2 and two more Pentium 4.
+
+10 August 2007 Helge Kreutzmann <debian@helgefjell.de>
+
+- Add another Xeon CPU
+- Don't trust /proc/kcore sizes >\approx 4 GB on x86 machines
+
+30 July 2007 Helge Kreutzmann <debian@helgefjell.de>
+
+- Add a Geode CPU by AMD and distinguish between AMD and Nat. Sem. ones
+
+17 October 2006 Helge Kreutzmann <debian@helgefjell.de>
+
+- Added the Sparc Niagra
+
+30 July 2006 Helge Kreutzmann <debian@helgefjell.de>
+
+- Add some more x86/x86_64 machines
+- Support more than 9 CPUs, starting with 13 a number is printed instead of
+  a string
+- Bail out immediately if /proc/cpuinfo is not readable
+
+23 July 2006 Helge Kreutzmann <debian@helgefjell.de>
+
+- Add two more sparc machines and do not use /proc/kcore on sparc as well
+- Fix a typo in the Sparc output
+
+23 April 2006 Helge Kreutzmann <debian@helgefjell.de>
+
+- Add another Sempron.
+
+9 April 2006 Helge Kreutzmann <debian@helgefjell.de>
+
+- The layout of the RAM is non-trivial on MIPS as well, so the size of
+  /proc/kcore reflects the highest memory address, not necessarily
+  identically to the amount of RAM, so always use /proc/meminfo here.
+- Do not look for endianess on mips, its deprecated.
+
+15 March 2006 Helge Kreutzmann <kreutzm@itp.uni-hannover.de>
+
+- Add the first semperon to the known CPUs
+- Remove superfluous space on big endian MIPS
+- Fix memory reporting on s390
+  Thanks to Frans Pop for helping me.
+
+12 February 2006 Helge Kreutzmann <kreutzm@itp.uni-hannover.de>
+
+- Even x86 / amd64 miss <string.h>, fixed.
+
+18 November 2005 Helge Kreutzmann <kreutzm@itp.uni-hannover.de>
+
+- Add <string.h> to almost all arches where it was missing.
+- Add a Celeron M CPU
+
+6 November 2005 Helge Kreutzmann <kreutzm@itp.uni-hannover.de>
+
+- Add one more Pentium4 cpu
+- Fix output of CPU on ppc
+- Update URL in README
+
+12 April 2005 Helge Kreutzmann <kreutzm@itp.uni-hannover.de>
+
+- Improve regular expression for highmem detection (needed for some 2.4)
+- Add one more pentium4 machine
+
+22 March 2005 Helge Kreutzmann <kreutzm@itp.uni-hannover.de>
+
+-ia64: On ia64, /proc/kcore cannot be trusted, always use 
+ alternate method
+-Fix memory detection on highmem system (the original size is already
+ in kB, not in B as assumed previously)
+
+18 March 2005 Helge Kreutzmann <kreutzm@itp.uni-hannover.de>
+
+- ia64: For now always use family as model (improve later)
+- HPPA: Print CPU type and try to get memory size.
+- AMD64: Add lots of new machines
+- Sparc: Add more known models and alternate BogoMips routine
+- PPC: Fix multicpu-detection without bogomips
+
+9 August 2004 Helge Kreutzmann <kreutzm@itp.uni-hannover.de>
+
+- Support SMP setups on alpha
+- Add lots of new machines
+- Fix miss-detection of Pentium MMX as Xeon
+
+7 August 2004 Helge Kreutzmann <kreutzm@itp.uni-hannover.de>
+
+- Fix detection in case HIGHMEM is present
+
+12 July 2004 Martin Michlmayr <tbm@cyrius.com>
+
+- Add support for a Pentium M
+
+11 July 2004 Helge Kreutzmann <kreutzm@itp.uni-hannover.de>
+
+- Add MIPS-Support (thanks to Martin Michlmayr for providing me with
+  the necessary information)
+- Add German man page translation
+- Use tar and add fixes for other architectures in Makefile.in
+
+11 July 2004 Erick Kinnee <cerb@debian.org>
+
+- Option handling.
+
+15 June 2004 Andreas Jochens <aj@andaco.de>
+
+- Add support for amd64.
+
+23 May 2004 Helge Kreutzmann <kreutzm@itp.uni-hannover.de>
+
+- Fix M68k routines to properly display the speed
+  Thanks to Peter Karlsson <peterk@debian.org> for reporting.
+
+20 May 2004 Helge Kreutzmann <kreutzm@itp.uni-hannover.de>
+
+-Completely describe all options in the man page
+
+16 August 2003 Ola Lundqvist <opal@debian.org>
+ 
+- Fix build for s360.
+
+17 April 2003 Ola Lundqvist <opal@debian.org>
+
+- Fix build for ia64.
+
+26 March 2003 Brian Almeida <bma@debian.org>
+
+- Support for Athlon XP/MP
+
+25 December 2002 Ola Lundqvist <opal@debian.org>
+
+- Created patch for hppa.
+
+29 January 2002 Gerhard Tonn <gt@debian.org>
+
+- Add support for s390.
+
+09 January 2002 "John R. Daily" <jdaily@progeny.com>
+
+- A patch for ia64 for linuxinfo.
+
+4 Apr 2001 Brian Russo <wolfie@debian.org>
+
+- Fixed manpage so it displays properly.
+
+3 May 1999 Erick Kinnee <cerb@debian.org>
+
+- Fixed compile problems on m68k.
+
+4 February 2002
+
+- Changed all references to tahallah.demon.co.uk to munted.org.uk
+- No other changes made. 
+
+9 September 2001
+
+- Rewrote the sparc routines. 
+- Cleaned up intel routines a bit.
+
+5 April 2000
+
+- Rewrote the routines to make it more efficient. 
+- Updated all the source files so that each module gets
+  their own revision. Replaced comment headers with a
+  better comment headers. Whole bunch of changes. 
+
+27 June 1999
+
+- Added further identification for AMD's K6 with MMX extensions. 
+- Added "-v" option because I kept getting different linuxinfo binaries 
+  confused!
+- Released as 1.1.4.  
+
+31 May 1999
+
+- Fixed brainfart in linuxinfo.h (mc68000 used instead of __mc68000__!)
+- Does not print MHz clock speed if not detected.
+- Prints unknown 486 if vendor and type not known (for braindamaged 486s)
+- Released as 1.1.3
+
+30 May 1999
+
+- Patched to add AMD 5x86. 
+- Released as 1.1.2
+
+27 March 1999
+
+- Ported LinuxInfo to StrongARM - very beta code, please test. 
+  Report problems to alex.buell@tahallah.demon.co.uk!
+  Cannot detect processor MHz unfortunately, but hopefully,
+  that might change. 
+- Have not worked on updating the other platforms, sorry ;o(
+- Released as 1.0.8
+
+10 March 1999
+
+- Added Celeron to the Intel CPU identification code. 
+- Again, put off the other platform code for 1.0.8. Sorry!
+- Fixed some oddities
+- Released as 1.0.7
+
+06 March 1999
+
+- Completely rewrote the Intel platform code (I didn't originally
+  write the code that processes the /proc/cpuinfo file - that
+  came from linux_logo. I'm happy to say that, at least for 
+  the Intel platform this dreck is history, and I have some VERY 
+  elegant code in there now. Whoopee! =)
+- Will rewrite the other platform code for 1.0.7. Watch for it! =)
+- Version bumped to 1.0.6 
+
+23 October 1998
+
+- Rewrote the library detection code (see linuxinfo_common.c)
+- Released as 1.0.4
+
+19th October 1998
+
+- autoconf'd courtesy of Johnny Tevessen, j.tevessen@gmx.de
+- added extra checks for glibc-1 and glibc-2.0.0 - glibc-2.0.7
+- Released as 1.0.3
+
+October 1998
+
+- Renamed to LinuxInfo from sysinfo to avoid infrigement of 
+  a commercial offering. 
+- Released as 1.0.2
+- glibc/libc compatibility 
+
+September 1998
+
+- Initial version written on glibc

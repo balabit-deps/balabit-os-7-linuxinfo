@@ -1,0 +1,162 @@
+# Translation of man page strings for linuxinfo
+# Copyright (C) 2014 Helge Kreutzmann <debian@helgefjell.de>
+# This file is distributed under the same license as the linuxinfo package.
+#
+# Yuri Kozlov <yuray@komyakino.ru>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxinfo 2.1.0\n"
+"Report-Msgid-Bugs-To: Helge Kreutzmann <debian@helgefjell.de>\n"
+"POT-Creation-Date: 2014-08-09 20:40+0300\n"
+"PO-Revision-Date: 2014-08-21 18:11+0400\n"
+"Last-Translator: Yuri Kozlov <yuray@komyakino.ru>\n"
+"Language-Team: Russian <debian-l10n-russian@lists.debian.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#. type: TH
+#: linuxinfo.1:4
+#, no-wrap
+msgid "LinuxInfo"
+msgstr "LinuxInfo"
+
+#. type: TH
+#: linuxinfo.1:4
+#, no-wrap
+msgid "9 August 2014"
+msgstr "9 августа 2014 года"
+
+#. type: TH
+#: linuxinfo.1:4
+#, no-wrap
+msgid "Linux"
+msgstr "Linux"
+
+#. type: TH
+#: linuxinfo.1:4
+#, no-wrap
+msgid "Software"
+msgstr "ПО"
+
+#. type: SH
+#: linuxinfo.1:5
+#, no-wrap
+msgid "NAME"
+msgstr "ИМЯ"
+
+#. type: Plain text
+#: linuxinfo.1:7
+msgid "linuxinfo - displays system information about system."
+msgstr "linuxinfo - показывает информацию о системе."
+
+#. type: SH
+#: linuxinfo.1:7
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "ОБЗОР"
+
+#. type: Plain text
+#: linuxinfo.1:10
+msgid "B<linuxinfo> [I<-h> | I<-v> | I<filename>]"
+msgstr "B<linuxinfo> [I<-h> | I<-v> | I<имя_файла>]"
+
+#. type: SH
+#: linuxinfo.1:10
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "ОПИСАНИЕ"
+
+#. type: Plain text
+#: linuxinfo.1:14
+msgid ""
+"Displays the system information about the system, including kernel version, "
+"number and type of processors in system, version of system library (libc or "
+"glibc)."
+msgstr ""
+"Данная программа показывает информацию о системе: версию ядра, "
+"количество и тип процессоров в системе, версию системной библиотеки "
+"(libc или glibc)."
+
+#. type: SH
+#: linuxinfo.1:14
+#, no-wrap
+msgid "OPTIONS"
+msgstr "ПАРАМЕТРЫ"
+
+#. type: TP
+#: linuxinfo.1:15
+#, no-wrap
+msgid "B<-v>"
+msgstr "B<-v>"
+
+#. type: Plain text
+#: linuxinfo.1:18
+msgid "Print version information."
+msgstr "Показать информацию о версии."
+
+#. type: TP
+#: linuxinfo.1:18
+#, no-wrap
+msgid "B<-h>"
+msgstr "B<-h>"
+
+#. type: Plain text
+#: linuxinfo.1:21
+msgid "Print brief help."
+msgstr "Показать эту справку."
+
+#. type: TP
+#: linuxinfo.1:21
+#, no-wrap
+msgid "B<filename>"
+msgstr "B<имя_файла>"
+
+#. type: Plain text
+#: linuxinfo.1:25
+msgid ""
+"Use an alternative source for system information (by default "
+"B</proc/cpuinfo>)."
+msgstr ""
+"Использовать другой источник информации о системе (по умолчанию B<"
+"/proc/cpuinfo>)."
+
+#. type: SH
+#: linuxinfo.1:25
+#, no-wrap
+msgid "AUTHORS"
+msgstr "АВТОРЫ"
+
+#. type: Plain text
+#: linuxinfo.1:28
+msgid ""
+"Alex Buell E<lt>alex.buell@munted.euE<gt>, Helge Kreutzmann "
+"E<lt>debian@helgefjell.deE<gt>"
+msgstr ""
+"Alex Buell E<lt>alex.buell@munted.euE<gt>, Helge Kreutzmann "
+"E<lt>debian@helgefjell.deE<gt>"
+
+#. type: SH
+#: linuxinfo.1:28
+#, no-wrap
+msgid "BUGS"
+msgstr "ДЕФЕКТЫ"
+
+#. type: Plain text
+#: linuxinfo.1:30
+msgid "What bugs? ;o) Do tell me!"
+msgstr "Нашли ошибку? ;o) Напишите мне!"
+
+#. type: Plain text
+#: linuxinfo.1:32
+msgid ""
+"Ok, some CPUs are not yet detected. Please inform me (Helge) if yours is "
+"amongst those."
+msgstr ""
+"Ну, некоторые ЦП пока не распознаются. Напишите мне (Helge), "
+"если встретите такой."
+

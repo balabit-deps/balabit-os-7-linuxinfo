@@ -1,0 +1,159 @@
+# Translation of man page strings for linuxinfo
+# Copyright (C) 2014 Helge Kreutzmann <debian@helgefjell.de>
+# This file is distributed under the same license as the linuxinfo package.
+# Beatrice Torracca <beatricet@libero.it>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxinfo 2.1.0\n"
+"Report-Msgid-Bugs-To: Helge Kreutzmann <debian@helgefjell.de>\n"
+"POT-Creation-Date: 2014-08-09 20:40+0300\n"
+"PO-Revision-Date: 2014-08-24 10:51+0200\n"
+"Last-Translator: Beatrice Torracca <beatricet@libero.it>\n"
+"Language-Team: Italian <debian-l10n-italian@lists.debian.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+
+#. type: TH
+#: linuxinfo.1:4
+#, no-wrap
+msgid "LinuxInfo"
+msgstr "LinuxInfo"
+
+#. type: TH
+#: linuxinfo.1:4
+#, no-wrap
+msgid "9 August 2014"
+msgstr "9 agosto 2014"
+
+#. type: TH
+#: linuxinfo.1:4
+#, no-wrap
+msgid "Linux"
+msgstr "Linux"
+
+#. type: TH
+#: linuxinfo.1:4
+#, no-wrap
+msgid "Software"
+msgstr "Software"
+
+#. type: SH
+#: linuxinfo.1:5
+#, no-wrap
+msgid "NAME"
+msgstr "NOME"
+
+#. type: Plain text
+#: linuxinfo.1:7
+msgid "linuxinfo - displays system information about system."
+msgstr "linuxinfo - visualizza informazioni sul sistema."
+
+#. type: SH
+#: linuxinfo.1:7
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "SINTASSI"
+
+#. type: Plain text
+#: linuxinfo.1:10
+msgid "B<linuxinfo> [I<-h> | I<-v> | I<filename>]"
+msgstr "B<linuxinfo> [I<-h> | I<-v> | I<nome_file>]"
+
+#. type: SH
+#: linuxinfo.1:10
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "DESCRIZIONE"
+
+#. type: Plain text
+#: linuxinfo.1:14
+msgid ""
+"Displays the system information about the system, including kernel version, "
+"number and type of processors in system, version of system library (libc or "
+"glibc)."
+msgstr ""
+"Visualizza le informazioni sul sistema, inclusi versione del kernel, numero "
+"e tipo di processori nel sistema, versione delle librerie di sistema (libc o "
+"glibc)."
+
+#. type: SH
+#: linuxinfo.1:14
+#, no-wrap
+msgid "OPTIONS"
+msgstr "OPZIONI"
+
+#. type: TP
+#: linuxinfo.1:15
+#, no-wrap
+msgid "B<-v>"
+msgstr "B<-v>"
+
+#. type: Plain text
+#: linuxinfo.1:18
+msgid "Print version information."
+msgstr "Stampa informazioni sulla versione."
+
+#. type: TP
+#: linuxinfo.1:18
+#, no-wrap
+msgid "B<-h>"
+msgstr "B<-h>"
+
+#. type: Plain text
+#: linuxinfo.1:21
+msgid "Print brief help."
+msgstr "Stampa un breve aiuto."
+
+#. type: TP
+#: linuxinfo.1:21
+#, no-wrap
+msgid "B<filename>"
+msgstr "B<nome_file>"
+
+#. type: Plain text
+#: linuxinfo.1:25
+msgid ""
+"Use an alternative source for system information (by default "
+"B</proc/cpuinfo>)."
+msgstr ""
+"Usa una fonte alternativa per le informazioni di sistema (in modo "
+"predefinito B</proc/cpuinfo>)."
+
+#. type: SH
+#: linuxinfo.1:25
+#, no-wrap
+msgid "AUTHORS"
+msgstr "AUTORI"
+
+#. type: Plain text
+#: linuxinfo.1:28
+msgid ""
+"Alex Buell E<lt>alex.buell@munted.euE<gt>, Helge Kreutzmann "
+"E<lt>debian@helgefjell.deE<gt>"
+msgstr ""
+"Alex Buell E<lt>alex.buell@munted.euE<gt>, Helge Kreutzmann "
+"E<lt>debian@helgefjell.deE<gt>"
+
+#. type: SH
+#: linuxinfo.1:28
+#, no-wrap
+msgid "BUGS"
+msgstr "BUG"
+
+#. type: Plain text
+#: linuxinfo.1:30
+msgid "What bugs? ;o) Do tell me!"
+msgstr "Quali bug? ;o) Sentiamo!"
+
+#. type: Plain text
+#: linuxinfo.1:32
+msgid ""
+"Ok, some CPUs are not yet detected. Please inform me (Helge) if yours is "
+"amongst those."
+msgstr ""
+"Alcune CPU non sono ancora rilevate. Informare l'autore (Helge) se la "
+"propria è tra queste."

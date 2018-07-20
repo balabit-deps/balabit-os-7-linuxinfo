@@ -1,0 +1,32 @@
+.\" Copyright 1998 Alex Buell (alex.buell@munted.eu)
+.\" Copyright 2014 Helge Kreutzmann (debian@helgefjell.de)
+.\" May be distributed under the GNU General Public License
+.TH LinuxInfo 1 "9 August 2014" "Linux" "Software"
+.SH NAME
+linuxinfo \- displays system information about system.
+.SH SYNOPSIS
+.B linuxinfo
+[\fI-h\fR | \fI-v\fR | \fIfilename\fR]
+.SH DESCRIPTION
+Displays the system information about the system, including kernel version,
+number and type of processors in system, version of system library (libc
+or glibc).
+.SH "OPTIONS"
+.TP
+\fB\-v\fR
+Print version information.
+.TP
+\fB\-h\fR
+Print brief help.
+.TP
+\fBfilename\fR
+Use an alternative source for system information (by default 
+\fB/proc/cpuinfo\fR).
+.SH AUTHORS
+Alex Buell <alex.buell@munted.eu>,
+Helge Kreutzmann <debian@helgefjell.de>
+.SH BUGS
+What bugs? ;o) Do tell me!
+
+Ok, some CPUs are not yet detected. Please inform me (Helge) if yours is amongst those.
+.sp
